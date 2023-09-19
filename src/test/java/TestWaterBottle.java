@@ -23,6 +23,11 @@ public class TestWaterBottle {
         waterBottle.drink();
         assertEquals(90, waterBottle.getVolume());
     }
+    @Test
+    public void RemovesVolume10() {
+        waterBottle.drink();
+        assertEquals(90, waterBottle.getVolume());
+    }
 
     @Test
     public void SetVolumeTo0() {
